@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uzM-Sv-n1z">
+                                <rect key="frame" x="0.0" y="285" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="upH-Mn-bPt"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bOy-LM-D9s">
+                                <rect key="frame" x="130" y="285" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="d13-Ee-DWE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSq-xP-ip0">
+                                <rect key="frame" x="260" y="285" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uov-EW-lk7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-0m-duH">
+                                <rect key="frame" x="390" y="285" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ILY-Lw-WHL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBI-mH-q0w">
+                                <rect key="frame" x="520" y="285" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jNl-hZ-dGF"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phD-TK-ycP" customClass="MHRadioButton">
+                                <rect key="frame" x="210" y="285" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="A7L-Mg-h0x"/>
+                                    <constraint firstAttribute="width" constant="50" id="ev7-VR-x4J"/>
+                                </constraints>
+                                <state key="normal" title="OFF">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="ON">
+                                    <color key="titleColor" red="1" green="0.15388123170000001" blue="0.18391390569999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmf-TY-kGz" customClass="MHRadioButton">
+                                <rect key="frame" x="340" y="285" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2Ci-F9-s00"/>
+                                    <constraint firstAttribute="height" constant="30" id="OdU-Sl-EvN"/>
+                                </constraints>
+                                <state key="normal" title="OFF">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="ON">
+                                    <color key="titleColor" red="1" green="0.15388123170000001" blue="0.18391390569999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oA-Jc-04e" customClass="MHRadioButton">
+                                <rect key="frame" x="470" y="285" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="kUe-E9-cLt"/>
+                                    <constraint firstAttribute="height" constant="30" id="ux3-Ur-RcK"/>
+                                </constraints>
+                                <state key="normal" title="OFF">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="ON">
+                                    <color key="titleColor" red="1" green="0.15388123170000001" blue="0.18391390569999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVl-73-an5" customClass="MHRadioButton">
+                                <rect key="frame" x="80" y="285" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TOk-Sx-ko6"/>
+                                    <constraint firstAttribute="width" constant="50" id="av1-km-sG0"/>
+                                </constraints>
+                                <state key="normal" title="OFF">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="ON">
+                                    <color key="titleColor" red="1" green="0.15388123170000001" blue="0.18391390569999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZBI-mH-q0w" firstAttribute="height" secondItem="uzM-Sv-n1z" secondAttribute="height" id="1tB-D9-0xl"/>
+                            <constraint firstItem="uzM-Sv-n1z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3B0-cr-CR8"/>
+                            <constraint firstItem="phD-TK-ycP" firstAttribute="leading" secondItem="bOy-LM-D9s" secondAttribute="trailing" id="6iV-zw-uUh"/>
+                            <constraint firstItem="1oA-Jc-04e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="A9P-e6-tGK"/>
+                            <constraint firstItem="xmf-TY-kGz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ae5-zw-dXf"/>
+                            <constraint firstItem="Mad-0m-duH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="G1g-Rj-0SK"/>
+                            <constraint firstItem="KVl-73-an5" firstAttribute="leading" secondItem="uzM-Sv-n1z" secondAttribute="trailing" id="K3C-Ks-fIk"/>
+                            <constraint firstItem="phD-TK-ycP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MH7-T5-k3Z"/>
+                            <constraint firstItem="bOy-LM-D9s" firstAttribute="leading" secondItem="KVl-73-an5" secondAttribute="trailing" id="MK3-5C-kff"/>
+                            <constraint firstItem="xmf-TY-kGz" firstAttribute="leading" secondItem="vSq-xP-ip0" secondAttribute="trailing" id="Qch-zN-NcO"/>
+                            <constraint firstAttribute="trailing" secondItem="ZBI-mH-q0w" secondAttribute="trailing" id="Wt0-1d-gCf"/>
+                            <constraint firstItem="1oA-Jc-04e" firstAttribute="leading" secondItem="Mad-0m-duH" secondAttribute="trailing" id="Yaa-f2-jZF"/>
+                            <constraint firstItem="Mad-0m-duH" firstAttribute="leading" secondItem="xmf-TY-kGz" secondAttribute="trailing" id="aRZ-E1-CVh"/>
+                            <constraint firstItem="vSq-xP-ip0" firstAttribute="height" secondItem="uzM-Sv-n1z" secondAttribute="height" id="b0v-lL-pNb"/>
+                            <constraint firstItem="vSq-xP-ip0" firstAttribute="leading" secondItem="phD-TK-ycP" secondAttribute="trailing" id="du4-dk-yQF"/>
+                            <constraint firstItem="ZBI-mH-q0w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="g2Q-Tx-igF"/>
+                            <constraint firstItem="vSq-xP-ip0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jKK-Nv-X7n"/>
+                            <constraint firstItem="bOy-LM-D9s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lMA-XH-T3I"/>
+                            <constraint firstItem="bOy-LM-D9s" firstAttribute="height" secondItem="uzM-Sv-n1z" secondAttribute="height" id="lTj-tx-Zz5"/>
+                            <constraint firstItem="bOy-LM-D9s" firstAttribute="leading" secondItem="KVl-73-an5" secondAttribute="trailing" id="qZ7-cm-QlS"/>
+                            <constraint firstItem="bOy-LM-D9s" firstAttribute="width" secondItem="uzM-Sv-n1z" secondAttribute="width" id="rxQ-sa-qnn"/>
+                            <constraint firstItem="KVl-73-an5" firstAttribute="leading" secondItem="uzM-Sv-n1z" secondAttribute="trailing" id="tWG-ge-jAU"/>
+                            <constraint firstItem="uzM-Sv-n1z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tcE-u1-bWV"/>
+                            <constraint firstItem="KVl-73-an5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wQb-Xz-Cgi"/>
+                            <constraint firstItem="Mad-0m-duH" firstAttribute="width" secondItem="uzM-Sv-n1z" secondAttribute="width" id="x3z-qr-NNU"/>
+                            <constraint firstItem="Mad-0m-duH" firstAttribute="height" secondItem="uzM-Sv-n1z" secondAttribute="height" id="xPD-iv-IHD"/>
+                            <constraint firstItem="vSq-xP-ip0" firstAttribute="width" secondItem="uzM-Sv-n1z" secondAttribute="width" id="xoU-RT-moN"/>
+                            <constraint firstItem="ZBI-mH-q0w" firstAttribute="width" secondItem="uzM-Sv-n1z" secondAttribute="width" id="yHo-F0-SBk"/>
+                            <constraint firstItem="ZBI-mH-q0w" firstAttribute="leading" secondItem="1oA-Jc-04e" secondAttribute="trailing" id="yKA-r0-CpH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lTj-tx-Zz5"/>
+                                <exclude reference="qZ7-cm-QlS"/>
+                                <exclude reference="b0v-lL-pNb"/>
+                                <exclude reference="xPD-iv-IHD"/>
+                                <exclude reference="1tB-D9-0xl"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outletCollection property="buttons" destination="KVl-73-an5" id="SGi-Kh-udE"/>
+                        <outletCollection property="buttons" destination="phD-TK-ycP" id="2as-MP-sGV"/>
+                        <outletCollection property="buttons" destination="xmf-TY-kGz" id="Ish-Od-dYt"/>
+                        <outletCollection property="buttons" destination="1oA-Jc-04e" id="3gk-mU-ccI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
